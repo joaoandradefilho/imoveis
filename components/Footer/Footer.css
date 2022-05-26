@@ -1,0 +1,30 @@
+/*=== FOOTER =================================*/
+footer {
+  background-color: orange;
+  padding-block: 6rem;
+
+  text-align: left;
+
+  color: black;
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+footer .logo svg {
+  width: 23.6rem;
+  height: 3.1rem;
+}
+
+footer p {
+  color: black;
+  line-height: 2;
+
+  margin-bottom: 3.2rem;
+}
+
+footer .social-links {
+  justify-content: flex-start;
+}
