@@ -27,3 +27,14 @@ tipoDinamicoFull
     )
   })}
 </div>
+
+
+
+;
+<div>
+  {data.filter(imoveis => imoveis.tipo === 'apartamento').map(imoveisFiltrados => (
+    <div key={imoveisFiltrados.id}>
+      <li>{imoveisFiltrados.tipo}</li>
+   </div>
+  ))}
+</div>

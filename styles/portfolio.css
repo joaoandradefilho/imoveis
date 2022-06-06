@@ -1,0 +1,156 @@
+.imoveisId .wrapper {
+  padding-inline: 0;
+  margin-bottom: 4rem;
+}
+
+.imoveisId .content {
+  padding: 0 2rem;
+}
+
+.buttonsViews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 3rem;
+  cursor: pointer;
+}
+
+.buttonsViews button {
+  display: inline-flex;
+  align-items: center;
+  margin-inline: 1rem;
+  padding: 1rem 2rem;
+
+  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+}
+
+.buttonsViews button:hover {
+  background-color: orange;
+  transition: 0.3s;
+}
+
+.descriptionImovel {
+  margin-bottom: 3rem;
+  line-height: 1.3;
+}
+
+.descriptionImovel a {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.descriptionImovel a:hover {
+  text-decoration: underline;
+}
+
+.descriptionImovel h3 {
+  margin-bottom: 0.5rem;
+
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.valor {
+  text-align: left;
+  padding: 2rem 2rem;
+  margin-bottom: 3rem;
+
+  border: 1px solid black;
+  border-radius: 0.2rem;
+}
+
+.valor p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.valor h2 {
+  padding-block: 1rem;
+}
+
+.buttonAgendarVisita {
+  margin-bottom: 3rem;
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  background-color: orange;
+  color: black;
+  border: solid black 1px;
+  border-radius: 0.2rem;
+}
+
+.buttonAgendarVisita:hover {
+  background-color: white;
+  transition: 0.3s;
+}
+
+.statsImovel {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 2rem;
+  
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+}
+
+.statsImovel .stat img {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.4rem;
+
+  border-radius: 50%;
+  background-color: none;
+  border: 1px solid black;
+}
+
+.statsImovel .stat svg{
+  width: 5rem;
+  height: 5rem;
+  padding: 0.4rem;
+
+  border-radius: 50%;
+  background-color: none;
+  border: 1px solid black;
+}
+
+.descriptionImovel {
+  text-align: left;
+}
+
+.descriptions {
+  margin-top: 3rem;
+  display: grid;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.description {
+  padding-bottom: 2rem;
+  border-bottom: 0.05rem solid lightgray;
+}
+
+.description p {
+  margin-top: 1rem;
+}
+
+.imoveisSimilares {
+  margin-top: 1.8rem;
+  text-align: left;
+}

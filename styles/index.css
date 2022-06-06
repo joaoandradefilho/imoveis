@@ -1,0 +1,97 @@
+.container {
+  background: url("https://www.unicesumar.edu.br/blog/wp-content/uploads/2018/04/estudando-no-computador-768x512.jpg");
+  min-height: 37rem;  
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  width: 100%;
+  
+  text-align: initial;
+  
+  border-radius: 0.2rem;
+}
+
+
+.contentAvaliacao{
+  padding-inline: 3rem;
+  padding-bottom: 3rem;
+  
+}
+
+.contentAvaliacao button {
+  margin-top: 3rem;
+  padding: 0.3rem 1rem;
+
+  font-size: 1.2rem;
+
+  background-color: orange;
+
+  border: 0;
+  border-radius: 0.2rem;
+}
+
+.buttonVerMaisAptos {
+  text-decoration: none;
+
+  margin-top: 4rem;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+
+  padding: 1rem;
+
+  background-color: orange;
+  color: white;
+
+  border: none;
+  border-radius: 0.2rem;
+  border: 0.03rem solid orange;
+
+}
+
+.buttonVerMaisAptos:hover {
+  background-color: white;
+  color: black;
+  border: 0.03rem solid lightgray;
+  transition: 0.3s;
+
+}
+
+
+.contentAvaliacao h3 {
+  margin-top: 2rem;
+
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+
+.buttonAvaliacao {
+  text-decoration: none;
+
+  margin-top: 17rem;
+
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+
+  padding: .8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: black;
+
+  background-color: white;
+  border-radius: 0.2rem;
+
+}
+
+.buttonAvaliacao:hover {
+  opacity: 80%;  
+  transition: 300ms;
+}
