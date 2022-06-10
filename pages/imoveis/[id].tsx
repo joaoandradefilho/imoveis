@@ -73,6 +73,150 @@ export default function Portfolio({ imovel }) {
                   width={700}
                   height={475} />
               </div>
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img05} alt={imovel.alt05} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img06} alt={imovel.alt06} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img07} alt={imovel.alt07} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img08} alt={imovel.alt08} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img09} alt={imovel.alt09} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img10} alt={imovel.alt10} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img11} alt={imovel.alt11} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img12} alt={imovel.alt12} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img13} alt={imovel.alt13} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img14} alt={imovel.alt14} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img15} alt={imovel.alt15} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img16} alt={imovel.alt16} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img17} alt={imovel.alt17} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img18} alt={imovel.alt18} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img19} alt={imovel.alt19} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img20} alt={imovel.alt20} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img21} alt={imovel.alt21} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img22} alt={imovel.alt22} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img23} alt={imovel.alt23} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img24} alt={imovel.alt24} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img25} alt={imovel.alt25} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img26} alt={imovel.alt26} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img27} alt={imovel.alt27} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
+              <div className="fader__slide keen-slider__slide">
+                <Image src={imovel.img28} alt={imovel.alt28} layout="responsive"
+                  width={700}
+                  height={475} />
+              </div>
+
               <div>
                 <p className="">{imovel.button}</p>
               </div>
