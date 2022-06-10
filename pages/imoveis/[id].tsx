@@ -474,7 +474,7 @@ export default function Portfolio({ imovel }) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const response = await fetch(`http://localhost:8080/imoveis`);
+  const response = await fetch(`https://beckend.vercel.app/imoveis`);
   const data = await response.json();
 
   const paths = data.map(imovel => {
@@ -494,7 +494,7 @@ interface IParams extends ParsedUrlQuery {
 export const getStaticProps: GetStaticProps = async (context) => {
   const { id } = context.params as IParams;
 
-  const response = await fetch(`http://localhost:8080/${id}`);
+  const response = await fetch(`https://beckend.vercel.app/${id}`);
   const data = await response.json();
 
   return {

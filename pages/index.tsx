@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { useKeenSlider } from 'keen-slider/react'
+import 'keen-slider/keen-slider.min.css'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import BackToTop from '../components/BackToTop'
@@ -86,6 +87,7 @@ export default function Home({ destaques }) {
                   <div key={destaque.id} className="cards">
                     <a href={destaque.link}>
                       <div className="slide">
+
                         <ul ref={sliderRef} className="keen-slider">
                           <li className="fader__slide keen-slider__slide">
                             <Image src={destaque.img01} alt={destaque.alt01} layout="responsive"
@@ -95,17 +97,17 @@ export default function Home({ destaques }) {
                             />
                           </li>
                           <li className="fader__slide keen-slider__slide">
-                            <Image src={destaque.img01} alt={destaque.alt01} layout="responsive"
+                            <Image src={destaque.img02} alt={destaque.alt02} layout="responsive"
                               width={700}
                               height={475} />
                           </li>
                           <li className="fader__slide keen-slider__slide">
-                            <Image src={destaque.img01} alt={destaque.alt01} layout="responsive"
+                            <Image src={destaque.img03} alt={destaque.alt03} layout="responsive"
                               width={700}
                               height={475} />
                           </li>
 
-                          <p className="buttonDestaque">{destaque.button}</p>
+                          <p className="textDiv">{destaque.button}</p>
 
                           {loaded && instanceRef.current && (
                             <>
@@ -172,7 +174,7 @@ export default function Home({ destaques }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const response = await fetch('http://localhost:8080/destaques');
+  const response = await fetch('https://beckend.vercel.app/destaques');
   const data = await response.json();
 
   return {
@@ -181,4 +183,5 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     revalidate: 10
   }
-};
+}
+

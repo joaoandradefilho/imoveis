@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
 import { useKeenSlider } from 'keen-slider/react'
+import 'keen-slider/keen-slider.min.css'
 import Head from 'next/head'
 import Image from 'next/image'
 import Navigation from '../components/Navigation'
@@ -29,7 +29,7 @@ function Imoveis() {
   })
 
   useEffect(() => {
-    fetch("http://localhost:8080/imoveis")
+    fetch("https://beckend.vercel.app/imoveis")
       .then((res) => res.json())
       .then(
         (result) => {
